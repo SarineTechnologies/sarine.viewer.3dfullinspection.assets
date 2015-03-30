@@ -13,7 +13,7 @@
     width:480px;
 }
 
-.inspect-stone .viewport img {
+.inspect-stone .viewport img ,.inspect-stone .viewport canvas{
     position:absolute;
     top:0;
     left:0;
@@ -26,22 +26,27 @@
 }
 
 .inspect-stone.large .viewport {
-    height:480px;
-    width:480px;
+    height:400px;
+    width:400px;
     overflow:hidden;
 }
-
-.inspect-stone.large #main-image {
+.inspect-stone.large #main-image,.inspect-stone.large #main-canvas{
+    z-index: -1;
+}
+.inspect-stone.large  #main-canvas{
+    z-index: 1;
+}
+.inspect-stone.large #main-image,#main-canvas {
     height:480px;
     width:480px;
 }
 
-.inspect-stone #sprite-image, .inspect-stone.sprite #main-image {
+.inspect-stone #sprite-image, .inspect-stone.sprite #main-image,#main-canvas {
     visibility:hidden;
 }
 
 
-.inspect-stone #main-image,.inspect-stone.sprite #sprite-image {
+.inspect-stone #main-image,#main-canvas,.inspect-stone.sprite #sprite-image {
     visibility:visible;
 }
 
@@ -78,7 +83,10 @@
     /*cursor:url(blank.cur),default;*/
     z-index:600;
 }
-
+.viewport.flip .mglass_picture_box #main-canvas {
+    /*cursor:url(blank.cur),default;*/
+    z-index:-1 !important;
+}
 .mglass_picture_box {
     zoom:1;
     z-index:600;
