@@ -1,4 +1,4 @@
-﻿/**
+/**
  * @author Piotr Salaciak 2010-11-24
  * @version 1.0
  */
