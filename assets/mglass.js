@@ -94,8 +94,8 @@ function MGlass(imageId, largeImageSrc, configObject, deleteCallback) {
     wrapperElement.className = (this.config.wrapperClassName || "mglass_wrapper");
     wrapperElement.tag = this;
     wrapperElement.name = "mglass_wrapper";
-    wrapperElement.style.width = this.smallImage.width + "px";
-    wrapperElement.style.height = this.smallImage.height + "px";
+    wrapperElement.style.width = this.smallImage.clientWidth + "px";
+    wrapperElement.style.height = this.smallImage.clientHeight + "px";
     wrapperElement.onmousemove = this.onMouseMove;
     wrapperElement.onmouseout = this.onMouseOut;
     wrapperElement.onmousedown = this.onMouseClick;
@@ -117,8 +117,8 @@ function MGlass(imageId, largeImageSrc, configObject, deleteCallback) {
     var pictureBoxElement = document.createElement("DIV");
     pictureBoxElement.className = (this.config.pictureBoxClassName || "mglass_picture_box");
     pictureBoxElement.name = "mglass_picture_box";
-    pictureBoxElement.style.width = this.smallImage.width + "px";
-    pictureBoxElement.style.height = this.smallImage.height + "px";
+    pictureBoxElement.style.width = this.smallImage.clientWidth + "px";
+    pictureBoxElement.style.height = this.smallImage.clientHeight + "px";
 
     wrapperElement.appendChild(viewerElement);
     wrapperElement.appendChild(pictureBoxElement);
@@ -132,6 +132,8 @@ function MGlass(imageId, largeImageSrc, configObject, deleteCallback) {
     viewerElement.style.backgroundRepeat = "no-repeat";
     wrapperElement.onmousemove({clientX: 240 - MGlass.getPageOffset().x + MGlass.getElementPosition(wrapperElement.childNodes[1]).x, clientY: 240 - MGlass.getPageOffset().y + MGlass.getElementPosition(wrapperElement.childNodes[1]).y})
     viewerElement.style.backgroundPosition = "center center";
+    viewerElement.style.left = (wrapperElement.clientWidth - viewerElement.clientWidth)/2 + "px"
+    viewerElement.style.top = (wrapperElement.clientHeight - viewerElement.clientHeight)/2 + "px"
     var _this = this;
 	if(typeof window.performance.mark !== "undefined")
 		window.performance.mark("magnifier_full_download_start")
