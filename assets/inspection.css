@@ -2,7 +2,8 @@
     position:relative;
     top:0;
     left:0;
-
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -10,13 +11,14 @@
     position:relative;
     overflow:hidden;
     outline:0;
-    width:480px;
+    width:100%;
+    height: 100%;
 }
 
 .inspect-stone .viewport img ,.inspect-stone .viewport canvas{
     position:absolute;
     top:0;
-    left:0;
+    left:0;    
 }
 
 .inspect-stone .viewport {
@@ -26,8 +28,10 @@
 }
 
 .inspect-stone.large .viewport {
-    height:400px;
-    width:400px;
+    height:100%;
+    width:100%;
+    max-width: 480px;
+    max-height: 480px;
     overflow:hidden;
 }
 .inspect-stone.large #main-image,.inspect-stone.large #main-canvas{
@@ -37,8 +41,8 @@
     z-index: 1;
 }
 .inspect-stone.large #main-image,#main-canvas {
-    height:480px;
-    width:480px;
+    height:100%;
+    width:100%;
 }
 
 .inspect-stone #sprite-image, .inspect-stone.sprite #main-image,#main-canvas {
@@ -67,7 +71,7 @@
 }
 
 .no_stone {
-    background:url(../IMG/no_stone.png) no-repeat center center!important;
+    /*background:url(../IMG/no_stone.png) no-repeat center center!important;*/
 }
 
 .flip {
@@ -95,8 +99,8 @@
 .mglass_viewer {
     position:absolute;
     visibility:hidden;
-    width:400px;
-    height:400px;
+    width: 70%;
+    height: 70%;
     z-index:600;
     overflow:hidden;
     -moz-border-radius:10px;
