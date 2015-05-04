@@ -280,7 +280,7 @@
   <text id="SVG_girdle_mm" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="28" y="262.5" x="117.64063" stroke-width="0" stroke="#000" fill="#000000">00.00mm</text>
   <text id="SVG_culet_mm" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="28" y="548.5" x="536.29688" stroke-width="0" stroke="#000" fill="#000000">00.0%</text>
   <text id="SVG_crown_rounded" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="28" y="152.5" x="806.64063" stroke-width="0" stroke="#000" fill="#000000">00.0%</text>
-  <text id="SVG_pavillion_rounded" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="28" y="468.5" x="686.64063" stroke-width="0" stroke="#000" fill="#000000">00.0%</text>
+  <text id="SVG_pavillion_rounded" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="28" y="350" x="810" stroke-width="0" stroke="#000" fill="#000000">00.0%</text>
   <text xmlns="http://www.w3.org/2000/svg" id="SVG_total_depth_per" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="28" y="440.5" x="100" stroke-width="0" stroke="#000" fill="#000000">00.0%</text>
   <text xmlns="http://www.w3.org/2000/svg" id="SVG_total_depth_mm" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="28" y="480.5" x="100" stroke-width="0" stroke="#000" fill="#000000">00.0%</text>
 </g>
