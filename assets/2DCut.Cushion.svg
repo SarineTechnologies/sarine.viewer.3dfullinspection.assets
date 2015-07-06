@@ -101,16 +101,16 @@
 	</g>
 </g>
 <text id="SVG_culet_mm" transform="matrix(1 0 0 1 422.6155 474.7579)" style="font-size:28px;">0.14%</text>
-<text id="SVG_table_pre" transform="matrix(1 0 0 1 406.1435 62.0989)" style="font-size:28px;">6.59 mm</text>
-<text id="SVG_table_mm" transform="matrix(1 0 0 1 415.1441 105.9998)" style="font-size:28px;">59.0 %</text>
+<text id="SVG_width_mm" transform="matrix(1 0 0 1 406.1435 62.0989)" style="font-size:28px;">6.59 mm</text>
+<text id="SVG_table_pre" transform="matrix(1 0 0 1 415.1441 105.9998)" style="font-size:28px;">59.0 %</text>
 <text id="SVG_pavillion_rounded" transform="matrix(1 0 0 1 662.6758 317.6032)" style="font-size:28px;">41.0&#x2DA;</text>
 <text id="SVG_crown_rounded" transform="matrix(1 0 0 1 662.6757 159.4922)" style="font-size:28px;">32.5&#x2DA;</text>
 <text id="SVG_crown_pre" transform="matrix(1 0 0 1 755.6249 149.4916)" style="font-size:28px;">13.0 %</text>
 <text id="SVG_crown_mm" transform="matrix(1 0 0 1 755.6249 149.4916)" x="0" y="28" style="font-size:28px;">0.86 mm</text>
 <text id="SVG_pavillion_pre" transform="matrix(1 0 0 1 755.6249 317.6032)" style="font-size:28px;">43.5 %</text>
 <text id="SVG_pavillion_mm" transform="matrix(1 0 0 1 755.6249 317.6032)"  x="0" y="28" style="font-size:28px;">2.85 mm</text>
-<text id="SVG_total_depth_pre" transform="matrix(1 0 0 1 91.156 388.0997)" x="0" y="0" style="font-size:28px;">59.5 %</text>
-<text id="SVG_total_depth_mm" transform="matrix(1 0 0 1 91.156 388.0997)" x="-26.28" y="28" style="font-size:28px;">3.92 mm</text>
+<text id="SVG_total_depth_mm" transform="matrix(1 0 0 1 91.156 388.0997)" x="0" y="0" style="font-size:28px;">59.5 %</text>
+<text id="SVG_total_depth_per" transform="matrix(1 0 0 1 91.156 388.0997)" x="-26.28" y="28" style="font-size:28px;">3.92 mm</text>
 <text id="SVG_girdle_pre" transform="matrix(1 0 0 1 106.5452 220.0993)" style="font-size:28px;">3.0 %</text>
 <text id="SVG_girdle_mm" transform="matrix(1 0 0 1 106.5452 220.0993)" x="-41.669" y="28" style="font-size:28px;">0.21 mm</text>
 <line style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;" x1="176.654" y1="212.077" x2="184.577" y2="220"/>
