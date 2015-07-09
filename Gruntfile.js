@@ -13,7 +13,7 @@ module.exports = function(grunt) {
         copy: {
             build: {
                 flatten: true,
-                src: ["assets/*.*"],
+                src: ["src/*.*"],
                 dest: "dist",
                 expand: true
             }
