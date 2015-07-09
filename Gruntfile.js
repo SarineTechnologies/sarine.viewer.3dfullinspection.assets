@@ -1,7 +1,7 @@
 'use strict';
 module.exports = function(grunt) {
     require('load-grunt-tasks')(grunt)
-    var files = ["Gruntfile.js", "package.json", "dist/*.*", "src/*.*", "bower.json", "release.cmd", "commit.cmd"]
+    var files = ["Gruntfile.js", "package.json", "dist/*.*", "src/*.*", "bower.json", "release.cmd", "commit.cmd", "assets/*.*"]
     var message = "commit"
     grunt.initConfig({
         config: grunt.file.readJSON("bower.json"),
