@@ -1,0 +1,13 @@
+{
+  "name": "sarine.viewer.3dfullinspection.assets",
+  "version": "0.1.0",
+  "main": "dist/",
+  "ignore": [
+    ".git",
+    "node_modules",
+    "package.json",
+    "Gruntfile.js"
+  ],
+  "dependencies": {},
+  "exportsOverride": {}
+}
