@@ -1,3 +1,4 @@
+
 .inspect-stone .viewport {
     position:relative;
     top:0;
@@ -104,12 +105,12 @@
     z-index:600;
     overflow:hidden;
     -moz-border-radius:10px;
-    -webkit-border-radius:10px;
+    -webkit-border-radius:10px; 
     -khtml-border-radius:10px;
     border-radius:10px;
     -webkit-box-shadow:0 4px 16px rgba(50,50,50,.75);
     -moz-box-shadow:0 4px 16px rgba(50,50,50,.75);
-    box-shadow:0 4px 16px rgba(50,50,50,.75);
+    box-shadow:0 4px 16px rgba(50,50,50,.75);   
 }
 
 
