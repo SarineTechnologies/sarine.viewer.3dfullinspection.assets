@@ -110,6 +110,7 @@
     -webkit-box-shadow:0 4px 16px rgba(50,50,50,.75);
     -moz-box-shadow:0 4px 16px rgba(50,50,50,.75);
     box-shadow:0 4px 16px rgba(50,50,50,.75);
+    cursor: pointer;
 }
 
 
@@ -319,4 +320,13 @@ Accordion magic
     position: absolute;
     margin: -31px 0 0 19px;
     z-index: 500;
+}
+.mglass_inner_html{
+    background-color: #343434;
+    opacity: 0.75;
+    position: absolute;
+    bottom: 0;
+    left: 33%;
+    width: 33%;
+    height: 15%;
 }
