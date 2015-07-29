@@ -110,7 +110,7 @@
     -webkit-box-shadow:0 4px 16px rgba(50,50,50,.75);
     -moz-box-shadow:0 4px 16px rgba(50,50,50,.75);
     box-shadow:0 4px 16px rgba(50,50,50,.75);
-    cursor: pointer;
+    cursor: none;
 }
 
 
@@ -321,6 +321,8 @@ Accordion magic
     margin: -31px 0 0 19px;
     z-index: 500;
 }
+
+
 /* cursor for magnifier */
 .mglass_inner_html{
     background-color: #343434;
