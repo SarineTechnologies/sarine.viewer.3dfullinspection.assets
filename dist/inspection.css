@@ -334,6 +334,9 @@ Accordion magic
     height: 16%;
     
 }
+.viewport.flip .mglass_inner_html{
+    top:0!important;
+}
 
 .mglass_inner_html .dummy {
     padding-top: 100%; /* forces 1:1 aspect ratio */

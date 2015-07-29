@@ -55,6 +55,11 @@ function MGlass(imageId, largeImageSrc, configObject, deleteCallback) {
             img.clientWidth >= x &&
             img.clientHeight >= y) {
            
+            if (this.parentElement.className.indexOf("flip") > -1) {
+                x = img.clientWidth - x;
+                y = img.clientHeight - y;
+            }
+            
             mglassViewer.style.visibility = 'visible';            
 
             
