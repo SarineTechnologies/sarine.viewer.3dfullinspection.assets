@@ -13,7 +13,7 @@ function MGlass(imageId, largeImageSrc, configObject, deleteCallback) {
     this.largeImage = new Image();
     this.largeImage.src = largeImageSrc;
     this.aspect = 2;
-    this.active = true;
+    this.isActive = true;
 
     this.config = (configObject || {});
 
@@ -183,7 +183,7 @@ function MGlass(imageId, largeImageSrc, configObject, deleteCallback) {
 
     this.Delete = function () {
         wrapperElement.parentNode.replaceChild(this.smallImage, wrapperElement);
-        this.active = false;
+        this.isActive = false;
     }
 
 
