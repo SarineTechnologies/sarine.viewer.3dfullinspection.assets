@@ -1,16 +1,17 @@
+
 .inspect-stone .viewport {
     position:relative;
-    top:0;
+    top:0; 
     left:0;
     width: 100%;
     height: 100%;
-}
+}  
 
 
 .inspect-stone {
     position:relative;
     overflow:hidden;
-    outline:0;
+    outline:0; 
     width:100%;
     height: 100%;
 }
