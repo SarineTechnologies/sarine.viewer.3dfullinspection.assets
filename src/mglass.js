@@ -158,11 +158,11 @@ function MGlass(imageId, largeImageSrc, configObject, deleteCallback) {
     viewerElement.style.top = (wrapperElement.clientHeight - viewerElement.clientHeight)/this.aspect + "px"
 
     var _this = this;
-    if(typeof window.performance.mark !== "undefined")
-        window.performance.mark("magnifier_full_download_start")
+   /* if(typeof window.performance.mark !== "undefined")
+        window.performance.mark("magnifier_full_download_start")*/
 
     this.largeImage.onload = function () {
-    if(typeof window.performance.mark !== "undefined"){
+        /*if(typeof window.performance.mark !== "undefined"){
             window.performance.mark("magnifier_full_download_end")
             window.performance.measure("magnifier_full_download", "magnifier_full_download_start", "magnifier_full_download_end")
             measure = window.performance.getEntriesByName('magnifier_full_download')[0]
@@ -174,7 +174,7 @@ function MGlass(imageId, largeImageSrc, configObject, deleteCallback) {
             window.performance.clearMarks("magnifier_full_download_start")
             window.performance.clearMarks("magnifier_full_download_end")
             window.performance.clearMeasures("magnifier_full_download")
-        }
+        }*/
         viewerElement.style.backgroundImage = "url('" + this.src + "') ";
         viewerElement.style.backgroundColor = "#" + _this.config.background;
         viewerElement.style.backgroundRepeat = "no-repeat";
