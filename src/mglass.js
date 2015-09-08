@@ -1,19 +1,12 @@
-/**
- * @author Piotr Salaciak 2010-11-24
- * @version 1.0
- */
-/**
- * @return MGlass class instance
- * @param {String} imageId Small image identififier
- * @param {String} largeImageSrc Large image URL
- * @param {Object} configObject Configuration for this instance
- */
+/*
+sarine.viewer.utils - v1.2.2 -  Tuesday, September 1st, 2015, 10:31:30 AM 
+*/
 function MGlass(imageId, largeImageSrc, configObject, deleteCallback) {
     this.smallImage = document.getElementById(imageId);
     this.largeImage = new Image();
     this.largeImage.src = largeImageSrc;
     this.aspect = 2;
-    this.isActive = true;
+    this.isActive = true; 
 
     this.config = (configObject || {});
 
@@ -64,8 +57,8 @@ function MGlass(imageId, largeImageSrc, configObject, deleteCallback) {
             mglassViewer.style.visibility = 'visible';            
 
             
-            var left = x - (mglassViewer.clientWidth / this.tag.aspect);
-            var top = y - (mglassViewer.clientHeight / this.tag.aspect) 
+            var left = x - (mglassViewer.clientWidth / this.tag.aspect);  
+            var top = y - (mglassViewer.clientHeight / this.tag.aspect);
 
             //block the magnifier area to reach 10% of the left/right borders
             var percentageOut = 10; //percentage of magnifier out of the parent border            
@@ -79,12 +72,13 @@ function MGlass(imageId, largeImageSrc, configObject, deleteCallback) {
             //set the position only if pointer is inside this borders
             if(left > leftMin  && left < leftMax){                
                 mglassViewer.style.left = left + "px";
-                mglassViewer.style.backgroundPositionX = (-dstX) + "px ";
+                //mglassViewer.style.backgroundPositionX = (-dstX) + "px ";
+                mglassViewer.style.backgroundPosition = (-dstX) + "px " + (-dstY) + "px ";
             }
                 
             if(top > topMin && top < topMax){                 
                 mglassViewer.style.top =  top + "px";
-                mglassViewer.style.backgroundPositionY = (-dstY) + "px ";
+                mglassViewer.style.backgroundPosition = (-dstX) + "px " + (-dstY) + "px "; 
             }
                 
 
