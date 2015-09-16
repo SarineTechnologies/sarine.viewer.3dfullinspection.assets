@@ -70,18 +70,25 @@ function MGlass(imageId, largeImageSrc, configObject, deleteCallback) {
             var dstY = -this.tag.largeImage.height / this.tag.aspect + (y * (this.tag.largeImage.height * this.tag.aspect - mglassViewer.clientHeight)) / img.clientHeight;
             
             //set the position only if pointer is inside this borders
+            var tempPosition = mglassViewer.style.backgroundPosition.split(' ');
+            var tempX = tempPosition[0], 
+                tempY = tempPosition[1];
+
             if(left > leftMin  && left < leftMax){                
                 mglassViewer.style.left = left + "px";
-                //mglassViewer.style.backgroundPositionX = (-dstX) + "px ";
-                mglassViewer.style.backgroundPosition = (-dstX) + "px " + (-dstY) + "px ";
+                var tempY = mglassViewer.style.backgroundPosition.split(' ')[1];
+                var validY = typeof tempY === "undefined" || tempY.indexOf('px') !== -1;
+                //mglassViewer.style.backgroundPositionX = (-dstX) + "px "; //backgroundPositionX not supported by Firefox              
+                mglassViewer.style.backgroundPosition = (-dstX) + "px " +  (validY ? tempY : "");
             }
                 
             if(top > topMin && top < topMax){                 
                 mglassViewer.style.top =  top + "px";
-                mglassViewer.style.backgroundPosition = (-dstX) + "px " + (-dstY) + "px "; 
-            }
-                
-
+                var tempX = mglassViewer.style.backgroundPosition.split(' ')[0];
+                var validX = typeof tempX === "undefined" || tempX.indexOf('px') !== -1;
+                //mglassViewer.style.backgroundPositionY = (-dstY) + "px "; //backgroundPositionY not supported by Firefox
+                mglassViewer.style.backgroundPosition = (validX ? (tempX + " ") : "")  +  (-dstY) + "px";                         
+            }                            
 
         } else {            
             //mglassViewer.style.visibility = 'hidden';
