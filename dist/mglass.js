@@ -1,17 +1,12 @@
-/**
- * @author Piotr Salaciak 2010-11-24
- * @version 1.0
- */
-/**
- * @return MGlass class instance
- * @param {String} imageId Small image identififier
- * @param {String} largeImageSrc Large image URL
- * @param {Object} configObject Configuration for this instance
- */
+/*
+sarine.viewer.3dfullinspection.assets - v0.13.0 -  Wednesday, September 16th, 2015, 3:57:06 PM 
+*/
 function MGlass(imageId, largeImageSrc, configObject, deleteCallback) {
     this.smallImage = document.getElementById(imageId);
     this.largeImage = new Image();
     this.largeImage.src = largeImageSrc;
+    this.aspect = 2;
+    this.isActive = true; 
 
     this.config = (configObject || {});
 
@@ -39,6 +34,7 @@ function MGlass(imageId, largeImageSrc, configObject, deleteCallback) {
     this.onMouseMove = function (e) {
         if (typeof e === "undefined")
             e = event; 
+        e.cancelBubble = true; //won't let the background image to move while magnify in use
         var wrapper = this;
         var mglassViewer = wrapper.childNodes[0];
         var img = wrapper.childNodes[1];
@@ -46,28 +42,55 @@ function MGlass(imageId, largeImageSrc, configObject, deleteCallback) {
         var imagePosition = MGlass.getElementPosition(img);
         var wrapperPosition = MGlass.getElementPosition(wrapper);
         var x = (e.clientX - document.body.scrollLeft + pageOffset.x - imagePosition.x);
-        var y = (e.clientY - document.body.scrollTop + pageOffset.y - imagePosition.y);
+        var y = (e.clientY - document.body.scrollTop + pageOffset.y - imagePosition.y); 
+        y = y - (img.clientHeight / 4); //move the cursor to the lower part of the magnifier
         if (0 <= x &&
             0 <= y &&
             img.clientWidth >= x &&
             img.clientHeight >= y) {
+           
             if (this.parentElement.className.indexOf("flip") > -1) {
                 x = img.clientWidth - x;
                 y = img.clientHeight - y;
             }
-            mglassViewer.style.visibility = 'visible';
+            
+            mglassViewer.style.visibility = 'visible';            
 
-            mglassViewer.style.left = (x - (mglassViewer.clientWidth / 2)) + "px";
-            mglassViewer.style.top = (y - (mglassViewer.clientHeight / 2)) + "px";
+            
+            var left = x - (mglassViewer.clientWidth / this.tag.aspect);  
+            var top = y - (mglassViewer.clientHeight / this.tag.aspect);
 
-            var dstX = -this.tag.largeImage.width / 2 + (x * (this.tag.largeImage.width * 2 - mglassViewer.clientWidth)) / img.clientWidth;
-            var dstY = -this.tag.largeImage.height / 2 + (y * (this.tag.largeImage.height * 2 - mglassViewer.clientHeight)) / img.clientHeight;
+            //block the magnifier area to reach 10% of the left/right borders
+            var percentageOut = 10; //percentage of magnifier out of the parent border            
+            var leftMin = topMin = -((percentageOut / 100) * img.clientWidth); //-25px when image width is 250px
+            var leftMax = topMax = img.clientWidth - ( mglassViewer.clientWidth - (img.clientWidth / 10));//100px when image width is 250px
+            
+            
+            var dstX = -this.tag.largeImage.width / this.tag.aspect + (x * (this.tag.largeImage.width * this.tag.aspect - mglassViewer.clientWidth)) / img.clientWidth;
+            var dstY = -this.tag.largeImage.height / this.tag.aspect + (y * (this.tag.largeImage.height * this.tag.aspect - mglassViewer.clientHeight)) / img.clientHeight;
+            
+            //set the position only if pointer is inside this borders
+            var tempPosition = mglassViewer.style.backgroundPosition.split(' ');
+            var tempX = tempPosition[0], 
+                tempY = tempPosition[1];
 
+            if(left > leftMin  && left < leftMax){                
+                mglassViewer.style.left = left + "px";
+                var tempY = mglassViewer.style.backgroundPosition.split(' ')[1];
+                var validY = typeof tempY === "undefined" || tempY.indexOf('px') !== -1;
+                //mglassViewer.style.backgroundPositionX = (-dstX) + "px "; //backgroundPositionX not supported by Firefox              
+                mglassViewer.style.backgroundPosition = (-dstX) + "px " +  (validY ? tempY : "");
+            }
+                
+            if(top > topMin && top < topMax){                 
+                mglassViewer.style.top =  top + "px";
+                var tempX = mglassViewer.style.backgroundPosition.split(' ')[0];
+                var validX = typeof tempX === "undefined" || tempX.indexOf('px') !== -1;
+                //mglassViewer.style.backgroundPositionY = (-dstY) + "px "; //backgroundPositionY not supported by Firefox
+                mglassViewer.style.backgroundPosition = (validX ? (tempX + " ") : "")  +  (-dstY) + "px";                         
+            }                            
 
-            mglassViewer.style.backgroundPosition = (-dstX) + "px " + (-dstY) + "px";
-
-
-        } else {
+        } else {            
             //mglassViewer.style.visibility = 'hidden';
         }
     }
@@ -132,26 +155,27 @@ function MGlass(imageId, largeImageSrc, configObject, deleteCallback) {
     viewerElement.style.backgroundRepeat = "no-repeat";
     wrapperElement.onmousemove({clientX: 240 - MGlass.getPageOffset().x + MGlass.getElementPosition(wrapperElement.childNodes[1]).x, clientY: 240 - MGlass.getPageOffset().y + MGlass.getElementPosition(wrapperElement.childNodes[1]).y})
     viewerElement.style.backgroundPosition = "center center";
-    viewerElement.style.left = (wrapperElement.clientWidth - viewerElement.clientWidth)/2 + "px"
-    viewerElement.style.top = (wrapperElement.clientHeight - viewerElement.clientHeight)/2 + "px"
+    viewerElement.style.left = (wrapperElement.clientWidth - viewerElement.clientWidth)/this.aspect + "px"
+    viewerElement.style.top = (wrapperElement.clientHeight - viewerElement.clientHeight)/this.aspect + "px"
+
     var _this = this;
-	if(typeof window.performance.mark !== "undefined")
-		window.performance.mark("magnifier_full_download_start")
+   /* if(typeof window.performance.mark !== "undefined")
+        window.performance.mark("magnifier_full_download_start")*/
 
     this.largeImage.onload = function () {
-	if(typeof window.performance.mark !== "undefined"){
-			window.performance.mark("magnifier_full_download_end")
-			window.performance.measure("magnifier_full_download", "magnifier_full_download_start", "magnifier_full_download_end")
-			measure = window.performance.getEntriesByName('magnifier_full_download')[0]
-			totalTime = measure.duration
-			$("#magnifier_full_download>.value").html((totalTime / 1000).toFixed(3) + "s.")
-			//if (totalTime > 100)
-			//    _gaq("send", "event", document.version, "magnifier_full_download", {friendlyName : $.url().param("friendlyName"), totalTime :totalTime })
+        /*if(typeof window.performance.mark !== "undefined"){
+            window.performance.mark("magnifier_full_download_end")
+            window.performance.measure("magnifier_full_download", "magnifier_full_download_start", "magnifier_full_download_end")
+            measure = window.performance.getEntriesByName('magnifier_full_download')[0]
+            totalTime = measure.duration
+            $("#magnifier_full_download>.value").html((totalTime / 1000).toFixed(3) + "s.")
+            //if (totalTime > 100)
+            //    _gaq("send", "event", document.version, "magnifier_full_download", {friendlyName : $.url().param("friendlyName"), totalTime :totalTime })
 
-			window.performance.clearMarks("magnifier_full_download_start")
-			window.performance.clearMarks("magnifier_full_download_end")
-			window.performance.clearMeasures("magnifier_full_download")
-		}
+            window.performance.clearMarks("magnifier_full_download_start")
+            window.performance.clearMarks("magnifier_full_download_end")
+            window.performance.clearMeasures("magnifier_full_download")
+        }*/
         viewerElement.style.backgroundImage = "url('" + this.src + "') ";
         viewerElement.style.backgroundColor = "#" + _this.config.background;
         viewerElement.style.backgroundRepeat = "no-repeat";
@@ -160,6 +184,7 @@ function MGlass(imageId, largeImageSrc, configObject, deleteCallback) {
 
     this.Delete = function () {
         wrapperElement.parentNode.replaceChild(this.smallImage, wrapperElement);
+        this.isActive = false;
     }
 
 
