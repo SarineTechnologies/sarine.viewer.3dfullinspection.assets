@@ -1,5 +1,5 @@
 /*
-sarine.viewer.3dfullinspection.assets - v0.13.0 -  Sunday, July 24th, 2016, 4:18:28 PM 
+sarine.viewer.3dfullinspection.assets - v0.13.0 -  Monday, July 25th, 2016, 4:22:04 PM 
 */
 function MGlass(imageId, largeImageSrc, configObject, deleteCallback) {
     this.smallImage = document.getElementById(imageId);
