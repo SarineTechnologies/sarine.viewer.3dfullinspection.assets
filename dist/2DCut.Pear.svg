@@ -1,0 +1,48 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 846.6 411.1"><defs><style>.cls-1,.cls-2,.cls-7{fill:none;stroke-linecap:round;stroke-linejoin:round;}.cls-1,.cls-2,.cls-3,.cls-4,.cls-7{stroke:#0d0a0a;}.cls-2{stroke-width:2px;}.cls-3{fill:#ef4966;}.cls-3,.cls-4{stroke-miterlimit:10;}.cls-4{fill:#010101;}.cls-5,.cls-6{isolation:isolate;font-family:ArialMT, Arial;}.cls-5{font-size:22.43px;}.cls-6{font-size:20.83px;}.cls-7{stroke-width:4px;}</style></defs><title>Pear</title>
+<path id="svg_35" data-name="svg 35" class="cls-1" d="M221,70.7"/>
+<line id="svg_136" data-name="svg 136" class="cls-2" x1="110.5" y1="94.1" x2="110.5" y2="367.7"/>
+<rect id="svg_137" data-name="svg 137" class="cls-3" x="108.3" y="93.7" width="4.4" height="0.7"/>
+<rect id="svg_138" data-name="svg 138" class="cls-3" x="108.3" y="367.4" width="4.4" height="0.7"/>
+<line id="svg_139" data-name="svg 139" class="cls-2" x1="750.7" y1="188.3" x2="750.7" y2="367.7"/>
+<rect id="svg_140" data-name="svg 140" class="cls-3" x="748.5" y="188" width="4.4" height="0.7"/>
+<rect id="svg_141" data-name="svg 141" class="cls-3" x="748.5" y="367.4" width="4.4" height="0.7"/>
+<line id="svg_142" data-name="svg 142" class="cls-2" x1="750.7" y1="93.1" x2="750.7" y2="162.3"/>
+<rect id="svg_143" data-name="svg 143" class="cls-3" x="748.5" y="92.7" width="4.4" height="0.7"/>
+<rect id="svg_144" data-name="svg 144" class="cls-3" x="748.5" y="162" width="4.4" height="0.7"/>
+<line id="svg_145" data-name="svg 145" class="cls-2" x1="266.4" y1="60.1" x2="624.8" y2="60.1"/>
+<rect id="svg_146" data-name="svg 146" class="cls-3" x="266" y="58" width="0.7" height="4.4"/>
+<rect id="svg_147" data-name="svg 147" class="cls-3" x="624.5" y="58" width="0.7" height="4.4"/>
+<line id="svg_188" data-name="svg 188" class="cls-2" x1="130.8" y1="38.1" x2="707.4" y2="38.1"/>
+<rect id="svg_189" data-name="svg 189" class="cls-4" x="130.4" y="32.4" width="0.7" height="11.2"/>
+<line id="svg_253" data-name="svg 253" class="cls-2" x1="100.5" y1="149.1" x2="107.4" y2="153.9"/>
+<line id="svg_254" data-name="svg 254" class="cls-2" x1="101.1" y1="180" x2="107.4" y2="174"/>
+<polyline id="svg_255" data-name="svg 255" class="cls-2" points="720.2 187.3 725.9 187.3 698.4 210.5"/>
+<polyline id="svg_256" data-name="svg 256" class="cls-2" points="720.2 164.3 725.9 164.3 698.4 144.5"/>
+<rect id="svg_189-2" data-name="svg 189" class="cls-4" x="707.4" y="32.5" width="0.7" height="11.2"/>
+
+<text id="SVG_width_mm" transform="translate(372.5 19.3)">0.00mm</text>
+<text id="SVG_table_pre" transform="translate(389.7 57.7)">00.0%</text>
+<text id="SVG_crown_pre" transform="translate(765.6 101.8)">00.0%</text>
+<text id="SVG_crown_mm" transform="translate(765.6 132.2)">0.00mm</text>
+<text id="SVG_pavillion_pre" transform="translate(765.6 257.7)">00.0%</text>
+<text id="SVG_pavillion_mm" transform="translate(765.6 288.1)">0.00mm</text>
+<text id="SVG_girdle_pre" transform="translate(29.9 157.9)">0.0%</text>
+<text id="SVG_girdle_mm" transform="translate(0 188.3)">0.00mm</text>
+<text id="SVG_culet_mm" transform="translate(468.1 403.8)">0.00%</text>
+<text id="SVG_crown_rounded" transform="translate(694.7 123.5)">00.0°</text>
+<text id="SVG_pavillion_rounded" transform="translate(694.7 254.4)">00.0°</text>
+<text id="SVG_total_depth_per" transform="translate(5.9 274.9)">0.00mm</text>
+<text id="SVG_total_depth_mm" transform="translate(5.9 307)">00.0%</text>
+
+<polygon class="cls-7" points="622.4 93.7 663.1 124.4 707.7 164.7 707.7 187.4 496.4 367.1 131.7 172.1 131.7 155.1 187.1 117.1 265.4 93.4 622.4 93.7"/>
+<polyline class="cls-7" points="131.7 155.1 275.4 155.1 293.1 164.1 335.7 164.1 345.7 159.4 364.1 169.4 431.1 169.4 442.4 163.4 452.4 169.4 503.1 169.4 514.4 163.4 526.4 169.7 577.4 169.7 587.4 163.7 598.7 169.4 642.7 169.4 652.4 162.4 668.4 170.1 694.4 170.1 704.1 161.4"/>
+<polyline class="cls-7" points="317.1 93.4 187.1 117.1 275.4 155.1 420.1 93.4"/>
+<path class="cls-7" d="M281.7,124.4"/>
+<line class="cls-7" x1="345.4" y1="93.7" x2="345.7" y2="159.4"/>
+<polyline class="cls-7" points="354.4 121.7 442.4 163.4 518.1 119.1 454.7 94.1"/>
+<polyline class="cls-7" points="546.7 94.1 518.1 119.1 587.4 163.7 611.1 123.1 567.4 93.7"/>
+<polyline class="cls-7" points="622.4 93.7 611.1 123.1 652.4 162.4 661.4 123.4"/>
+<line class="cls-7" x1="518.1" y1="119.1" x2="514.4" y2="163.4"/>
+<polyline class="cls-7" points="652.7 187.1 596.1 282.1 586.7 186.1 506.1 285.7 442.4 186.4 435.4 291.7 273.4 172.7 318.4 239.1 131.7 173.1 328.7 173.1 340.7 179.4 430.4 179.4 442.4 186.4 453.7 179.4 505.1 179.4 514.1 187.1 526.7 179.4 578.7 179.4 586.7 186.1 602.4 179.4 637.7 179.4 652.7 187.1 667.7 179.4 694.1 179.4 707.7 187.4"/><polyline class="cls-7" points="514.1 187.1 496.4 367.1 435.4 291.7 342.1 179.4"/>
+<line class="cls-7" x1="496.4" y1="367.1" x2="318.4" y2="239.1"/>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 655.2 361.3"><title>Heart_2</title>
+<path d="M164.7,78.1" transform="translate(-20.6 -17.4)" fill="none" stroke="#0d0a0a" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="94.8" y1="59.4" x2="94.8" y2="331.9" fill="none" stroke="#0d0a0a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+<rect x="92.9" y="59" width="3.8" height="0.6" fill="#ef4966" stroke="#0d0a0a" stroke-miterlimit="10"/>
+<rect x="92.9" y="331.6" width="3.8" height="0.6" fill="#ef4966" stroke="#0d0a0a" stroke-miterlimit="10"/>
+<line x1="572.9" y1="140.2" x2="572.9" y2="331.9" fill="none" stroke="#0d0a0a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+<rect x="571" y="139.9" width="3.8" height="0.6" fill="#ef4966" stroke="#0d0a0a" stroke-miterlimit="10"/>
+<rect x="571" y="331.6" width="3.8" height="0.6" fill="#ef4966" stroke="#0d0a0a" stroke-miterlimit="10"/>
+<line x1="572.9" y1="59.4" x2="572.9" y2="129" fill="none" stroke="#0d0a0a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+<rect x="571" y="59" width="3.8" height="0.6" fill="#ef4966" stroke="#0d0a0a" stroke-miterlimit="10"/>
+<rect x="571" y="128.8" width="3.8" height="0.6" fill="#ef4966" stroke="#0d0a0a" stroke-miterlimit="10"/>
+<line x1="176.2" y1="51.6" x2="429.7" y2="51.6" fill="none" stroke="#0d0a0a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+<rect x="175.9" y="49.8" width="0.6" height="3.8" fill="#ef4966" stroke="#0d0a0a" stroke-miterlimit="10"/>
+<rect x="429.5" y="49.8" width="0.6" height="3.8" fill="#ef4966" stroke="#0d0a0a" stroke-miterlimit="10"/>
+<line x1="105.4" y1="32.8" x2="546.9" y2="32.8" fill="none" stroke="#0d0a0a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+<rect x="105" y="27.9" width="0.6" height="9.6" fill="#010101" stroke="#0d0a0a" stroke-miterlimit="10"/>
+<line x1="86.2" y1="120.5" x2="92.1" y2="124.5" fill="none" stroke="#0d0a0a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+<line x1="86.7" y1="145.5" x2="92.1" y2="140.4" fill="none" stroke="#0d0a0a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+<polyline points="550.7 140.2 555.6 140.2 532.1 160.1" fill="none" stroke="#0d0a0a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+<polyline points="550.7 129.4 555.6 129.4 532.1 112.3" fill="none" stroke="#0d0a0a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+<rect x="546.9" y="28" width="0.6" height="9.6" fill="#010101" stroke="#0d0a0a" stroke-miterlimit="10"/>
+
+<text id="SVG_width_mm" transform="translate(274.1 16.5)" font-size="19.25" font-family="ArialMT, Arial" style="isolation:isolate">0.00mm</text>
+<text id="SVG_table_pre" transform="translate(288.9 49.5)" font-size="17.88" font-family="ArialMT, Arial" style="isolation:isolate">00.0%</text>
+<text id="SVG_crown_pre" transform="translate(585.7 87.3)" font-size="19.25" font-family="ArialMT, Arial" style="isolation:isolate">00.0%</text>
+<text id="SVG_crown_mm" transform="translate(585.7 113.5)" font-size="19.25" font-family="ArialMT, Arial" style="isolation:isolate">0.00mm</text>
+<text id="SVG_pavillion_pre" transform="translate(585.7 221.1)" font-size="19.25" font-family="ArialMT, Arial" style="isolation:isolate">00.0%</text>
+<text id="SVG_pavillion_mm" transform="translate(585.7 247.2)" font-size="19.25" font-family="ArialMT, Arial" style="isolation:isolate">0.00mm</text>
+<text id="SVG_girdle_pre" transform="translate(25.7 135.5)" font-size="19.25" font-family="ArialMT, Arial" style="isolation:isolate">0.0%</text>
+<text id="SVG_girdle_mm" transform="translate(0 161.6)" font-size="19.25" font-family="ArialMT, Arial" style="isolation:isolate">0.00mm</text>
+<text id="SVG_culet_mm" transform="translate(254.9 355.1)" font-size="19.25" font-family="ArialMT, Arial" style="isolation:isolate">0.00%</text>
+<text id="SVG_crown_rounded" transform="translate(524.9 106)" font-size="19.25" font-family="ArialMT, Arial" style="isolation:isolate">00.0°</text>
+<text id="SVG_pavillion_rounded" transform="translate(524.9 218.3)" font-size="19.25" font-family="ArialMT, Arial" style="isolation:isolate">00.0°</text>
+<text id="SVG_total_depth_per" transform="translate(5 235.9)" font-size="19.25" font-family="ArialMT, Arial" style="isolation:isolate">0.00mm</text>
+<text id="SVG_total_depth_mm" transform="translate(5 263.4)" font-size="19.25" font-family="ArialMT, Arial" style="isolation:isolate">00.0%</text>
+
+<polygon points="273.7 331.4 341.8 286.1 543.7 140.3 543.7 130 500.2 86.5 429.4 60.2 175.9 60.2 139.9 84.2 104.4 125.9 104.4 139.7 225.7 293.6 273.7 331.4" fill="none" stroke="#231f20" stroke-linejoin="round" stroke-width="4"/><polygon points="273.7 331.4 381.1 145.6 381.1 134.9 358 89.4 298.8 59.8 238.3 89.4 228 136.6 228 148.2 259.3 294.9 263.2 323.2 273.7 331.4" fill="none" stroke="#231f20" stroke-linejoin="round" stroke-width="4"/><polygon points="139.9 84.2 210.4 60.6 238.3 89.4 156.8 137 139.9 84.2" fill="none" stroke="#231f20" stroke-linejoin="round" stroke-width="4"/><polyline points="139.9 84.2 128.9 134.9 128.9 148.2 225.7 293.6 158.5 148.6 260.6 297.5 305.6 146.9 305.6 137.4 358 89.4 453.7 134.4 453.7 143.4 300.5 285.5" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><polyline points="104.4 125.9 128.9 134.9 156.8 137 228 136.6 305.6 137.4 381.1 134.9 453.7 134.4 506.4 131.9 543.7 130" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><polyline points="543.7 140.3 503.8 141.3 453.7 143.4 381.1 145.6 305.6 146.9 228 148.2 158.5 148.6 158.5 137" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><polyline points="104.4 139.7 128.9 148.2 158.5 148.6" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><line x1="238.3" y1="89.4" x2="305.6" y2="137.4" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><polyline points="358 89.4 391 61.1 498.7 86.4 506.4 131.9 506.4 140.4 344.7 283.3 453.7 143.4 453.7 134.4 498.1 87.3" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/></svg>

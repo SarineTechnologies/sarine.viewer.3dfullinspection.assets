@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 701.6 361"><title>Emerald_2</title><path d="M250.9,71.9" transform="translate(-21.8 -11.2)" fill="none" stroke="#0d0a0a" stroke-linecap="round" stroke-linejoin="round"/><line x1="94.8" y1="82.5" x2="94.8" y2="327.6" fill="none" stroke="#0d0a0a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><rect x="92.9" y="82.2" width="3.8" height="0.6" fill="#ef4966" stroke="#0d0a0a" stroke-miterlimit="10"/>
+<rect x="92.9" y="327.3" width="3.8" height="0.6" fill="#ef4966" stroke="#0d0a0a" stroke-miterlimit="10"/>
+<line x1="619.3" y1="143.6" x2="619.3" y2="327.6" fill="none" stroke="#0d0a0a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+<rect x="617.4" y="143.3" width="3.8" height="0.6" fill="#ef4966" stroke="#0d0a0a" stroke-miterlimit="10"/>
+<rect x="617.4" y="327.3" width="3.8" height="0.6" fill="#ef4966" stroke="#0d0a0a" stroke-miterlimit="10"/>
+<line x1="619.3" y1="83.4" x2="619.3" y2="133.3" fill="none" stroke="#0d0a0a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+<rect x="617.4" y="83" width="3.8" height="0.6" fill="#ef4966" stroke="#0d0a0a" stroke-miterlimit="10"/>
+<rect x="617.4" y="133" width="3.8" height="0.6" fill="#ef4966" stroke="#0d0a0a" stroke-miterlimit="10"/>
+<line x1="186.6" y1="51.6" x2="517.3" y2="51.6" fill="none" stroke="#0d0a0a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+<rect x="186.2" y="49.8" width="0.6" height="3.8" fill="#ef4966" stroke="#0d0a0a" stroke-miterlimit="10"/>
+<rect x="517" y="49.8" width="0.6" height="3.8" fill="#ef4966" stroke="#0d0a0a" stroke-miterlimit="10"/>
+<line x1="101.1" y1="32.7" x2="599.3" y2="32.7" fill="none" stroke="#0d0a0a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+<rect x="100.7" y="27.8" width="0.6" height="9.6" fill="#010101" stroke="#0d0a0a" stroke-miterlimit="10"/>
+<line x1="86.2" y1="127.1" x2="92.2" y2="131.2" fill="none" stroke="#0d0a0a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+<line x1="86.8" y1="150.2" x2="92.2" y2="145.1" fill="none" stroke="#0d0a0a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+<polyline points="608.3 143.8 613.2 143.8 589.6 163.8" fill="none" stroke="#0d0a0a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+<polyline points="608.3 132.9 613.2 132.9 589.6 115.9" fill="none" stroke="#0d0a0a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+<rect x="599.3" y="27.9" width="0.6" height="9.6" fill="#010101" stroke="#0d0a0a" stroke-miterlimit="10"/>
+
+<text id="SVG_width_mm"  transform="translate(309.3 16.5)" font-size="19.25" font-family="ArialMT, Arial" style="isolation:isolate">0.00mm</text>
+<text id="SVG_table_pre" transform="translate(324.1 49.5)" font-size="17.88" font-family="ArialMT, Arial" style="isolation:isolate">00.0%</text>
+<text id="SVG_crown_pre" transform="translate(632 87.3)" font-size="19.25" font-family="ArialMT, Arial" style="isolation:isolate">00.0%</text>
+<text id="SVG_crown_mm" transform="translate(632 113.5)" font-size="19.25" font-family="ArialMT, Arial" style="isolation:isolate">0.00mm</text>
+<text id="SVG_pavillion_pre" transform="translate(632 246.8)" font-size="19.25" font-family="ArialMT, Arial" style="isolation:isolate">00.0%</text>
+<text id="SVG_pavillion_mm" transform="translate(632 273)" font-size="19.25" font-family="ArialMT, Arial" style="isolation:isolate">0.00mm</text>
+<text id="SVG_girdle_pre" transform="translate(25.7 132)" font-size="19.25" font-family="ArialMT, Arial" style="isolation:isolate">0.0%</text>
+<text id="SVG_girdle_mm" transform="translate(0 158.1)" font-size="19.25" font-family="ArialMT, Arial" style="isolation:isolate">0.00mm</text>
+<text id="SVG_culet_mm" transform="translate(322.1 354.8)" font-size="19.25" font-family="ArialMT, Arial" style="isolation:isolate">0.00%</text>
+<text id="SVG_crown_rounded" transform="translate(570.9 97.4)" font-size="19.25" font-family="ArialMT, Arial" style="isolation:isolate">00.0°</text>
+<text id="SVG_pavillion_rounded" transform="translate(553.2 218.3)" font-size="19.25" font-family="ArialMT, Arial" style="isolation:isolate">00.0°</text>
+<text id="SVG_total_depth_per" transform="translate(5 280.5)" font-size="19.25" font-family="ArialMT, Arial" style="isolation:isolate">0.00mm</text>
+<text id="SVG_total_depth_mm" transform="translate(5 308)" font-size="19.25" font-family="ArialMT, Arial" style="isolation:isolate">00.0%</text>
+
+<rect x="103.2" y="134" width="495.1" height="9" fill="none" stroke="#231f20" stroke-linejoin="round" stroke-width="4"/>
+<polygon points="281.7 325.8 419.4 325.8 464.7 284.7 533.1 227.1 598.3 143 598.3 134 584.4 116.8 556.6 92.5 517.4 84.3 183.6 84.2 145.2 92.9 116.2 116.8 103.2 134 103.2 143 169.1 227.1 236.2 284.8 281.7 325.8" fill="none" stroke="#231f20" stroke-linejoin="round" stroke-width="4"/>
+<line x1="145.2" y1="92.9" x2="556.6" y2="92.9" fill="none" stroke="#231f20" stroke-linejoin="round" stroke-width="4"/>
+<line x1="116.2" y1="116.8" x2="584.4" y2="116.8" fill="none" stroke="#231f20" stroke-linejoin="round" stroke-width="4"/>
+<line x1="169.1" y1="227.1" x2="533.1" y2="227.1" fill="none" stroke="#231f20" stroke-linejoin="round" stroke-width="4"/>
+<line x1="236.2" y1="284.8" x2="464.7" y2="284.7" fill="none" stroke="#231f20" stroke-linejoin="round" stroke-width="4"/>
+<polyline points="419.4 325.8 452.5 284.6 495.4 227.1 540 143.4 540 134 536.7 117.1 522.1 92.8 517.4 84.3" fill="none" stroke="#231f20" stroke-linejoin="round" stroke-width="4"/>
+<polyline points="281.8 325.8 248.8 284.6 205.9 227.1 161.2 143.4 161.2 134 164.5 117.1 179.1 92.8 183.8 84.3" fill="none" stroke="#231f20" stroke-linejoin="round" stroke-width="4"/></svg>

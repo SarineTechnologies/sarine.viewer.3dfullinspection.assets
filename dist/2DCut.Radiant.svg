@@ -1,105 +1,90 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 923 513" style="enable-background:new 0 0 923 513;" xml:space="preserve">
-<rect style="fill:#FFFFFF;" width="923" height="513"/>
-<g>
-	<path style="fill:none;stroke:#000000;stroke-miterlimit:10;" d="M261.857,175.225"/>
-	
-		<polygon style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" points="   261.857,175.225 316.284,139.082 354.553,131.003 567.586,131.003 605.43,139.082 659.857,175.225 659.857,189.257    567.586,332.129 460.857,432.905 354.553,332.129 261.857,189.257  "/>
-	
-		<rect x="261.857" y="175.225" style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" width="398" height="14.032"/>
-	
-		<polygon style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" points="   354.553,131.003 285.549,159.492 636.165,159.492 567.586,131.003  "/>
-	
-		<polygon style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" points="   339.246,159.492 460.857,131.003 582.893,159.492  "/>
-	<path style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" d="   M339.246,159.492"/>
-	
-		<polygon style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" points="   339.246,159.492 327.765,175.225 327.765,189.257 339.246,242.409 401.327,287.907 461.07,311.719 520.812,287.907    582.893,242.409 598.626,189.257 598.626,175.225 582.893,159.492  "/>
-	
-		<line style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" x1="461.07" y1="311.719" x2="460.857" y2="432.905"/>
-	
-		<polygon style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" points="   460.857,398.141 401.327,287.907 339.246,242.409 327.765,259.736  "/>
-	
-		<polygon style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" points="   461.07,398.141 520.599,287.907 582.681,242.409 594.161,259.736  "/>
-	
-		<polygon style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" points="   303.022,252.704 327.765,259.736 386.532,362.445 354.553,332.129  "/>
-	
-		<polygon style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" points="   618.802,252.826 594.325,259.783 535.557,362.491 567.536,332.175  "/>
-</g>
+<svg id="Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 378.9 259.2"><defs><style>.cls-1,.cls-2,.cls-3,.cls-4{fill:none;}.cls-1{stroke:#000;}.cls-1,.cls-3{stroke-linejoin:bevel;}.cls-3{stroke:#070607;}.cls-4{stroke:#0b0909;stroke-linecap:round;stroke-linejoin:round;}.cls-5{fill:#0b0909;}.cls-6,.cls-7{isolation:isolate;fill:#070606;font-family:ArialMT, Arial;}.cls-6{font-size:10.51px;}.cls-7{font-size:8.54px;}</style></defs><title>Radiant</title>
+<polygon class="cls-1" points="322.7 77.3 322.8 89.4 271 175.1 192.9 244.4 114.8 175.1 65.7 89.4 65.7 77.3 114.8 45.1 269.2 45.1 322.7 77.3"/>
+<line class="cls-2" x1="322.8" y1="89.4" x2="65.7" y2="89.4"/>
+<line class="cls-3" x1="265.9" y1="65.2" x2="279.2" y2="77.3"/>
+<line class="cls-2" x1="84" y1="65.2" x2="302.5" y2="65.2"/>
+<line class="cls-3" x1="105.9" y1="77.3" x2="119.8" y2="65.2"/>
+<line class="cls-2" x1="105.9" y1="77.3" x2="119.8" y2="65.2"/>
+<line class="cls-2" x1="265.9" y1="65.2" x2="279.2" y2="77.3"/>
+<line class="cls-3" x1="84" y1="65.2" x2="302.5" y2="65.2"/>
+<line class="cls-3" x1="112.8" y1="117.5" x2="154.5" y2="151.2"/>
+<line class="cls-3" x1="322.8" y1="89.4" x2="65.7" y2="89.4"/>
+<line class="cls-2" x1="112.8" y1="117.5" x2="154.5" y2="151.2"/>
+<line class="cls-3" x1="279.1" y1="89.4" x2="279.2" y2="77.3"/>
+<line class="cls-2" x1="232.4" y1="151.2" x2="193" y2="166"/>
+<line class="cls-2" x1="105.9" y1="131.6" x2="150.1" y2="206.6"/>
+<line class="cls-3" x1="105.9" y1="131.6" x2="150.1" y2="206.6"/>
+<line class="cls-2" x1="239.7" y1="202.9" x2="281.5" y2="130.7"/>
+<line class="cls-2" x1="193" y1="166" x2="154.5" y2="151.2"/>
+<line class="cls-3" x1="239.7" y1="202.9" x2="281.5" y2="130.7"/>
+<line class="cls-3" x1="193" y1="166" x2="154.5" y2="151.2"/>
+<line class="cls-3" x1="232.4" y1="151.2" x2="193" y2="166"/>
+<line class="cls-2" x1="193" y1="220.3" x2="154.5" y2="151.2"/>
+<line class="cls-3" x1="193" y1="220.3" x2="154.5" y2="151.2"/>
+<line class="cls-3" x1="232.4" y1="151.2" x2="272.1" y2="117.5"/>
+<line class="cls-2" x1="232.4" y1="151.2" x2="272.1" y2="117.5"/>
+<line class="cls-2" x1="193" y1="220.3" x2="232.4" y2="151.2"/>
+<line class="cls-3" x1="193.3" y1="45.1" x2="119.8" y2="65.2"/>
+<line class="cls-3" x1="193" y1="220.3" x2="232.4" y2="151.2"/>
+<line class="cls-2" x1="279.1" y1="89.4" x2="279.2" y2="77.3"/>
+<line class="cls-2" x1="88.3" y1="128.8" x2="105.9" y2="131.6"/>
+<line class="cls-2" x1="105.9" y1="77.3" x2="105.8" y2="89.4"/>
+<line class="cls-3" x1="88.3" y1="128.8" x2="105.9" y2="131.6"/>
+<line class="cls-3" x1="105.9" y1="77.3" x2="105.8" y2="89.4"/>
+<line class="cls-2" x1="265.9" y1="65.2" x2="193.3" y2="45.1"/>
+<line class="cls-2" x1="193.3" y1="45.1" x2="119.8" y2="65.2"/>
+<line class="cls-3" x1="265.9" y1="65.2" x2="193.3" y2="45.1"/>
+<line class="cls-2" x1="272.1" y1="117.5" x2="279.1" y2="89.4"/>
+<line class="cls-3" x1="193" y1="220.3" x2="105.9" y2="131.6"/>
+<line class="cls-2" x1="112.8" y1="117.5" x2="105.8" y2="89.4"/>
+<line class="cls-3" x1="272.1" y1="117.5" x2="279.1" y2="89.4"/>
+<line class="cls-3" x1="112.8" y1="117.5" x2="105.8" y2="89.4"/>
+<line class="cls-2" x1="193" y1="220.3" x2="105.9" y2="131.6"/>
+<line class="cls-2" x1="193" y1="220.3" x2="281.5" y2="130.7"/>
+<line class="cls-3" x1="193" y1="220.3" x2="281.5" y2="130.7"/>
+<line class="cls-2" x1="322.7" y1="77.3" x2="65.7" y2="77.3"/>
+<line class="cls-2" x1="281.5" y1="130.7" x2="300.6" y2="126.3"/>
+<line class="cls-3" x1="322.7" y1="77.3" x2="65.7" y2="77.3"/>
+<line class="cls-2" x1="302.5" y1="65.2" x2="251.2" y2="45.1"/>
+<line class="cls-3" x1="131.4" y1="45.1" x2="84" y2="65.2"/>
+<line class="cls-2" x1="131.4" y1="45.1" x2="84" y2="65.2"/>
+<line class="cls-3" x1="281.5" y1="130.7" x2="300.6" y2="126.3"/>
+<line class="cls-3" x1="302.5" y1="65.2" x2="251.2" y2="45.1"/>
+<line class="cls-3" x1="272.1" y1="117.5" x2="281.5" y2="130.7"/>
+<line class="cls-2" x1="272.1" y1="117.5" x2="281.5" y2="130.7"/>
+<line class="cls-4" x1="73.3" y1="17.3" x2="311.8" y2="17.3"/>
+<line class="cls-3" x1="112.8" y1="117.5" x2="105.9" y2="131.6"/>
+<line class="cls-2" x1="112.8" y1="117.5" x2="105.9" y2="131.6"/>
+<line class="cls-2" x1="192.9" y1="244.4" x2="193" y2="166"/>
+<line class="cls-3" x1="192.9" y1="244.4" x2="193" y2="166"/>
+<line class="cls-4" x1="46.8" y1="44.3" x2="46.8" y2="240.9"/>
 
-<g>
-	<g>
-		<line style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;" x1="354.96" y1="112" x2="566.625" y2="112"/>
-		<g>
-			<rect x="354" y="105.76" width="1.92" height="12.48"/>
-		</g>
-		<g>
-			<rect x="565.666" y="105.76" width="1.92" height="12.48"/>
-		</g>
-	</g>
-</g>
-<g>
-	<g>
-		<line style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;" x1="262.817" y1="75" x2="658.897" y2="75"/>
-		<g>
-			<rect x="261.857" y="68.76" width="1.92" height="12.48"/>
-		</g>
-		<g>
-			<rect x="657.937" y="68.76" width="1.92" height="12.48"/>
-		</g>
-	</g>
-</g>
+<rect class="cls-5" x="311.3" y="14.1" width="1" height="6.5"/>
+<rect class="cls-5" x="43.6" y="43.8" width="6.5" height="1"/>
+<rect class="cls-5" x="330.6" y="73.4" width="6.5" height="1"/>
+<rect class="cls-5" x="43.6" y="240.4" width="6.5" height="1"/>
+<line class="cls-4" x1="333.9" y1="45.3" x2="333.9" y2="73.9"/>
+<rect class="cls-5" x="330.6" y="44.8" width="6.5" height="1"/>
+<line class="cls-4" x1="115.4" y1="35.7" x2="269.6" y2="35.7"/>
+<rect class="cls-5" x="269.1" y="32.4" width="1" height="6.5"/>
+<rect class="cls-5" x="114.9" y="32.4" width="1" height="6.5"/>
+<rect class="cls-5" x="72.8" y="14.1" width="1" height="6.5"/>
 
-<g>
-	<g>
-		
-			<line style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;" x1="716.68" y1="174.265" x2="716.68" y2="130.612"/>
-		<g>
-			<rect x="710.44" y="173.305" width="12.48" height="1.92"/>
-		</g>
-		<g>
-			<rect x="710.44" y="129.652" width="12.48" height="1.92"/>
-		</g>
-	</g>
-</g>
-<g>
-	<g>
-		
-			<line style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;" x1="716.68" y1="429.047" x2="716.68" y2="190.217"/>
-		<g>
-			<rect x="710.44" y="428.087" width="12.48" height="1.92"/>
-		</g>
-		<g>
-			<rect x="710.44" y="189.257" width="12.48" height="1.92"/>
-		</g>
-	</g>
-</g>
+<text class="cls-6" transform="translate(176.4 9)">0.00mm</text>
+<text class="cls-7" transform="translate(177.8 32.7) scale(1.14 1)">00.0%</text>
+<text class="cls-6" transform="translate(297.6 54.2)">00.0°</text>
+<text class="cls-6" transform="translate(340.9 157.4)">0.00mm</text>
+<text class="cls-6" transform="translate(340.9 57.7)">0.00mm</text>
+<text class="cls-6" transform="translate(177.2 255.8)">0.00%</text>
+<text class="cls-6" transform="translate(0.4 141)">0.00mm</text>
+<text class="cls-6" transform="translate(340.9 143.1)">00.0%</text>
+<text class="cls-6" transform="translate(0.4 156)">00.0%</text>
+<text class="cls-6" transform="translate(340.9 43.5)">00.0%</text>
+<text class="cls-6" transform="translate(0 67.8)">0.00mm</text>
 
-<g>
-	<g>
-		
-			<line style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;" x1="248.101" y1="431.37" x2="248.101" y2="130.612"/>
-		<g>
-			<rect x="241.861" y="430.41" width="12.48" height="1.92"/>
-		</g>
-		<g>
-			<rect x="241.861" y="129.652" width="12.48" height="1.92"/>
-		</g>
-	</g>
-</g>
-<text id="SVG_culet_mm" style="font-size: 28px;" transform="matrix(1 0 0 1 424.6157 474.7579)">0.14%</text>
-<text id="SVG_width_mm" style="font-size: 28px;" transform="matrix(1 0 0 1 405.812 62.0989)">6.59 mm</text>
-<text id="SVG_table_pre" style="font-size: 28px;" transform="matrix(1 0 0 1 414.8125 105.9998)">59.0 %</text>
-<text id="SVG_pavillion_rounded" style="font-size: 28px;" transform="matrix(1 0 0 1 642.6279 317.6032)">41.0˚</text>
-<text id="SVG_crown_rounded" style="font-size: 28px;" transform="matrix(1 0 0 1 642.6277 159.4922)">32.5˚</text>
-<text id="SVG_crown_pre" style="font-size: 28px;" transform="matrix(1 0 0 1 725.6797 150)"  >13.0 %</text>
-<text id="SVG_crown_mm" style="font-size: 28px;" transform="matrix(1 0 0 1 725.6797 178)">0.86 mm</text>
-<text id="SVG_pavillion_pre" style="font-size: 28px;" transform="matrix(1 0 0 1 725.6797 317.6032)">43.5 %</text>
-<text id="SVG_pavillion_mm" style="font-size: 28px;" transform="matrix(1 0 0 1 725.6797 346)">2.85 mm</text>
-<text id="SVG_total_depth_mm" style="font-size: 28px;" transform="matrix(1 0 0 1 146.1042 388.0997)">59.5 %</text>
-<text id="SVG_total_depth_per" style="font-size: 28px;" transform="matrix(1 0 0 1 120.1042 416)">3.92 mm</text>
-<text id="SVG_girdle_pre" style="font-size: 28px;" transform="matrix(1 0 0 1 161.4934 176.6825)">3.0 %</text>
-<text id="SVG_girdle_mm" style="font-size: 28px;" transform="matrix(1 0 0 1 120.4934 204.6825)">0.21 mm</text>
-
-
-<line style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;" x1="231.602" y1="168.66" x2="239.525" y2="176.583"/>
-<line style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;" x1="231.602" y1="197.246" x2="239.525" y2="189.322"/>
+<rect class="cls-5" x="330.6" y="93.7" width="6.5" height="1"/>
+<line class="cls-4" x1="56.5" y1="94" x2="60.4" y2="90.2"/>
+<line class="cls-4" x1="333.8" y1="94.2" x2="333.9" y2="241.9"/>
+<rect class="cls-5" x="330.6" y="241.4" width="6.5" height="1"/>
+<text class="cls-6" transform="translate(14 53.6)">3.0%</text>
 </svg>
