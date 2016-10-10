@@ -1,6 +1,6 @@
 {
   "name": "sarine.viewer.3dfullinspection.assets",
-  "version": "0.14.1",
+  "version": "0.15.0",
   "main": "dist/",
   "ignore": [
     ".git",
