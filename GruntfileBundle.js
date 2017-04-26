@@ -2,7 +2,7 @@
 module.exports = function(grunt) {
     require('load-grunt-tasks')(grunt)
     grunt.initConfig({
-        config: grunt.file.readJSON("bower.json"),
+        config: grunt.file.readJSON("package.json"),
         copy: {
             build: {
                 flatten: true,
