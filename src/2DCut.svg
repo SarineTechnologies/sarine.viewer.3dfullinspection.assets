@@ -7,7 +7,7 @@
 		<line id="svg_5" fill="none" stroke="#0D0A0A" stroke-miterlimit="10" x1="745.6757202" y1="120.7099762" x2="792.1587524" y2="150.5133057"/>
 	
 		<line id="svg_6" fill="none" stroke="#0D0A0A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="745.6757202" y1="120.7099762" x2="792.1587524" y2="150.5133057"/>
-	<path id="svg_7" fill="#FFFFFF" stroke="#0D0A0A" stroke-miterlimit="10" d="M886.2255249,248.4747772v-25.4005585V248.4747772z"/> 
+	<path id="svg_7" fill="#FFFFFF" stroke="#0D0A0A" stroke-miterlimit="10" d="M886.2255249,248.4747772v-25.4005585V248.4747772z"/>
 	
 		<line id="svg_8" fill="none" stroke="#0D0A0A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="886.2255249" y1="248.4747772" x2="886.2255249" y2="223.0742188"/>
 	<polyline id="svg_9" fill="#FFFFFF" stroke="#0D0A0A" stroke-miterlimit="10" points="886.2255249,221.8041992    793.3441162,151.2753143 792.1587524,150.5133057  "/>
@@ -281,8 +281,7 @@
   <text id="SVG_culet_mm" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="28" y="548.5" x="536.29688" stroke-width="0" stroke="#000" fill="#000000">00.0%</text>
   <text id="SVG_crown_rounded" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="28" y="152.5" x="806.64063" stroke-width="0" stroke="#000" fill="#000000">00.0%</text>
   <text id="SVG_pavillion_rounded" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="28" y="350" x="810" stroke-width="0" stroke="#000" fill="#000000">00.0%</text>
- 
-  <text xmlns="http://www.w3.org/2000/svg" id="SVG_total_depth_mm" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="28" y="440.5"  x="154.95313" stroke-width="0" stroke="#000" fill="#000000">00.0%</text>
-   <text xmlns="http://www.w3.org/2000/svg" id="SVG_total_depth_per" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="28" y="480.5" x="117.64063" stroke-width="0" stroke="#000" fill="#000000">00.0%</text>
+  <text xmlns="http://www.w3.org/2000/svg" id="SVG_total_depth_per" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="28" y="440.5" x="100" stroke-width="0" stroke="#000" fill="#000000">00.0%</text>
+  <text xmlns="http://www.w3.org/2000/svg" id="SVG_total_depth_mm" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="28" y="480.5" x="100" stroke-width="0" stroke="#000" fill="#000000">00.0%</text>
 </g>
 </svg>
