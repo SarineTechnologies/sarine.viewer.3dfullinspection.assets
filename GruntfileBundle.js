@@ -5,8 +5,9 @@ module.exports = function(grunt) {
         config: grunt.file.readJSON("package.json"),
         copy: {
             build: {
-                flatten: true,
-                src: ["src/*.*"],
+                flatten: false,
+                cwd: "src",
+                src: ["**/*"],
                 dest: "dist",
                 expand: true
             }
