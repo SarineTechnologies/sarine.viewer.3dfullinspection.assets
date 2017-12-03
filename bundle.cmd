@@ -1,1 +1,1 @@
-grunt --gruntfile GruntfileBundle.js bundle
+npm install && grunt --gruntfile GruntfileBundle.js bundle
