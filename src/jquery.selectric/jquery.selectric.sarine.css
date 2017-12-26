@@ -77,18 +77,6 @@
   border-color: #AAA;
 }
 
-.selectric-hover .selectric {
-  border-color: #c4c4c4;
-}
-
-.selectric-hover .selectric .button {
-  color: #c4c4c4;
-}
-
-.selectric-hover .selectric .button:after {
-  border-top-color: #c4c4c4;
-}
-
 .selectric-open {
   z-index: 9999;
 }
