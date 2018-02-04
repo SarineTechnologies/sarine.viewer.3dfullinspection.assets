@@ -34,6 +34,6 @@ module.exports = function(grunt) {
             }
         }
     });
-    grunt.registerTask('bundle', ['copy', 'concat:comment', 'concat:commentCss']);
+    grunt.registerTask('build', ['copy', 'concat:comment', 'concat:commentCss']);
 
 };
