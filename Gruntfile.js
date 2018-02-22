@@ -32,8 +32,22 @@ module.exports = function(grunt) {
                 src: ["dist/inspection.css"],
                 dest: 'dist/inspection.css'
             }
-        }
+        },
+        watch: {
+                options: {
+                    interrupt: true
+                },
+                scripts: {
+                    files: ['coffee/<%= config.name %>.coffee'],
+                    tasks: ['build'],
+                    options: {
+                        spawn: false,
+                    }
+                }
+            }
     });
     grunt.registerTask('build', ['copy', 'concat:comment', 'concat:commentCss']);
+
+    grunt.registerTask('dev', ['build', 'watch']);
 
 };
