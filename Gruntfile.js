@@ -1,6 +1,7 @@
 'use strict';
 module.exports = function(grunt) {
     require('load-grunt-tasks')(grunt)
+    var dist = decideDist();
     grunt.initConfig({
         config: grunt.file.readJSON("package.json"),
         copy: {
@@ -8,7 +9,7 @@ module.exports = function(grunt) {
                 flatten: false,
                 cwd: "src",
                 src: ["**/*"],
-                dest: "dist",
+                dest: dist.root,
                 expand: true
                 
             }
@@ -49,5 +50,25 @@ module.exports = function(grunt) {
     grunt.registerTask('build', ['copy', 'concat:comment', 'concat:commentCss']);
 
     grunt.registerTask('dev', ['build', 'watch']);
+
+   function decideDist()
+    {
+        if(process.env.buildFor == 'deploy')
+        {
+            grunt.log.writeln("dist is github folder");
+
+            return {
+                root: 'dist'
+            }
+        }
+        else
+        {
+            grunt.log.writeln("dist is local");
+
+            return {
+                root: '../../../dist/content/viewers/atomic/v1/assets/'
+            }
+        }
+    }
 
 };
