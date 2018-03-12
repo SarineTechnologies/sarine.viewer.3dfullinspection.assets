@@ -16,6 +16,7 @@
 .cq-beforeafter img.cq-beforeafter-img {
   display: block;
   width: 100%;
+  height: 100%
 }
 
 .cq-beforeafter .cq-beforeafter-resize{
@@ -41,9 +42,15 @@
   bottom:-10px;
   width:2px;
   margin-left:-1px;
-  background: rgba(255,255,255,.2);
+  background: #000;
   cursor: ew-resize;
   z-index: 2;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
 }
 .cq-beforeafter .cq-beforeafter-handle i{
   position: absolute;
@@ -58,12 +65,18 @@
   line-height: 32px;
   border-radius: 50%;
   transition:all 0.3s ease;
-  background: #ffb800;
-  border: 1px solid #e6a600; /* darken(@orange, 5%) */
-  box-shadow:
-      0 2px 6px rgba(0,0,0,.2),
-      inset 0 2px 0 rgba(255,255,255,.2),
-      inset 0 60px 50px -30px #ffd466; /* lighten(@orange, 20%)*/
+  background: #1B4984;
+  border-color:#1B4784;
+  box-shadow: 0 2px 6px rgba(0,0,0,.2), inset 0 2px 0 rgba(255,255,255,.2), inset 0 60px 50px -30px #2A65AB;
+  padding: 0;
+  font: inherit;
+  box-sizing: border-box;
+  cursor: ew-resize;
+}
+
+.cq-beforeafter .cq-beforeafter-handle i svg{
+  fill: #fff;
+  margin-top: 6px;
 }
 
 .cq-beforeafter .cq-beforeafter-handle.grass i{
