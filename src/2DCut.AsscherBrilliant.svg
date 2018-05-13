@@ -59,7 +59,7 @@
     </g>
   </g>
   <g id="text">
-    <text class="cls-2" id="SVG_Culet_Size_mm" data-rounding="2"  data-suffix="mm" transform="translate(246.1 318.4)">0.0mm</text>
+    <text class="cls-2" id="SVG_Culet_Size_percentages" data-rounding="1"  data-suffix="%"  transform="translate(246.1 318.4)">0.0mm</text>
     <text class="cls-2" id="SVG_Crown_angel-deg" data-rounding="1"  data-suffix="°" transform="translate(421.6 74.4)">0.0°</text>
     <text class="cls-2" id="SVG_Pavilion_angel-deg" data-rounding="1"  data-suffix="°" transform="translate(421.6 184.7)">0.0°</text>
     <g id="Pavillion">
@@ -76,7 +76,7 @@
     </g>
     <g id="Girdle">
       <text class="cls-2" id="SVG_Girdle_Thickness-mm" data-rounding="2"  data-suffix="mm" transform="translate(0 147.6)">0.00mm</text>
-      <text class="cls-2" id="SVG_girdle_pre" data-rounding="1"  data-suffix="%" transform="translate(0 108.5)">0.0%</text>
+      <text class="cls-2" id="SVG_Girdle_Thickness-percentages" data-rounding="1"  data-suffix="%" transform="translate(0 108.5)">0.0%</text>
     </g>
     <g id="Table">
       <text class="cls-2"  id="SVG_Table_Size_percentages" data-rounding="0"  data-suffix="%" transform="translate(245.1 42.1)">0%</text>
