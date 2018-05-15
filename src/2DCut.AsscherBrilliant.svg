@@ -59,7 +59,7 @@
     </g>
   </g>
   <g id="text">
-    <text class="cls-2" id="SVG_Culet_Size_percentages" data-rounding="1"  data-suffix="%"  transform="translate(246.1 318.4)">0.0mm</text>
+    <text class="cls-2" id="SVG_Culet_Size_percentages" data-rounding="1"  data-suffix="%"  transform="translate(246.1 318.4)">0.0%</text>
     <text class="cls-2" id="SVG_Crown_angel-deg" data-rounding="1"  data-suffix="°" transform="translate(421.6 74.4)">0.0°</text>
     <text class="cls-2" id="SVG_Pavilion_angel-deg" data-rounding="1"  data-suffix="°" transform="translate(421.6 184.7)">0.0°</text>
     <g id="Pavillion">
@@ -83,7 +83,7 @@
       <text class="cls-2" id="SVG_Length_mm" data-rounding="2"  data-suffix="mm" transform="translate(238.8 13.7)">0.00mm</text>
     </g>
   </g>
-  <g id="octagon">
+  <g id="AsscherBrilliant">
     <g>
       <line class="cls-3" x1="184.5" y1="54.7" x2="358.7" y2="54.7"/>
       <line class="cls-3" x1="143.4" y1="70.9" x2="185.3" y2="54.4"/>
